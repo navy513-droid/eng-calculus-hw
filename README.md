@@ -1,35 +1,16 @@
-# Dmath
+###  부정적분 필수공식
+일변수 함수의 필수 부정적분은 다음과 같다.
 
-## Homework 2 - 202655### (Your ID) HONG GIL DONG
-
-### 2.1 Equation Editing
-| # | text | formula |
-|---|------|---------|
-| 1 | IF (P AND Q) THEN R | $$P$$|
-| 2 | (P XOR Q) OR R | $$P$$      |
-| 3 | NOT P IFF Q |  $$P$$   |
-| 4 | FOR ALL x, P(x) | $$P$$  |
-| 5 | THERE EXISTS AN x, NOT Q(x) | $$P$$ |
-| 6 | IF P THEN Q EQUIVALENT TO NOT P OR Q | $$P$$ |
-| 7 | Euler's Identity |  $$P$$  |
-| 8 | SUM of n from 1 to 100 Equals 5050 | $$P$$ |
-
-### 2.2 Translation
-Using the propositions 
-
-* $p$ = "I study"
-* $q$ = "I will pass the course"
-* $r$ = "The professor accepts bribes" 
-
-Translate the following into statements of propositional logic:
-
-1. If I do not study, then I will only pass the course if the professor accepts bribes.<br>
-  $$p$$
-2. If the professor accepts bribes, then I do not study.<br>
-  $$p$$
-3. The professor does not accept bribes, but I study and will pass the course.<br>
-  $$p$$
-4. If I study, the professor will accept bribes and I will pass the course.<br>
-  $$p$$
-5. I will not pass the course but the professor accepts bribes.<br>
-  $$p$$
+1. $ \int x^n \,dx=\dfrac{x^{n+1}}{n+1}+C, \, n \ne -1 $
+2. $ \int \dfrac{f'(x)}{f(x)}\, dx=\ln |f(x)| +C$
+    - $ \int \tan x \, dx=\ln |\sec x|+C  \qquad$  
+    -  $ \int \sec x \,dx= \ln|\sec x+\tan x|+C  \qquad$  
+    - $ \int \dfrac{1}{x^2-a^2}\, dx =\dfrac{1}{2a}\ln \left| \dfrac{x-a}{x+a} \right|+C $
+3. $ \int e^{ax} \,dx =\dfrac{1}{a}e^{ax} +C $
+4. $ \int \sin x \,dx= -\cos x +C $
+5. $ \int \cos x \,dx =\sin x+C $
+6. $ \int \sec^2 x\, dx=\tan x+C \qquad$  
+7. $ \int \sec x \tan x \,dx=\sec x+C  \qquad$  
+8. $ \int \dfrac{1}{\sqrt{a^2-x^2}}\, dx=\arcsin \dfrac{x}{a}+C = \sin^{-1} \dfrac{x}{a}+C  $
+9. $ \int \dfrac{1}{a^2+x^2}\, dx=\dfrac{1}{a}\arctan\dfrac{x}{a} +C
+    =\dfrac{1}{a}\tan^{-1}\dfrac{x}{a} +C  $
